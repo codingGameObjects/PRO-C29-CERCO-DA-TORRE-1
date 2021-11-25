@@ -71,7 +71,7 @@ function setup() {
     block32 = new Block(700,55,30,40);
 
     polygon = new Polygon(50, 200);
-    slingShot = new Slingshot(polygon.body, {x:50, y:200})
+    slingShot = new Slingshot(polygon.body, {x:90, y:200})
 }
 function draw() {
     background(56,44,44); 
